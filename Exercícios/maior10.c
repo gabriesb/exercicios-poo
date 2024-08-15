@@ -3,6 +3,7 @@
 
 int main()
 {
+    setlocale(LC_ALL, "pt-br");
 
     float numeros[10];
     float maior = 0, menor = 0, media = 0;
